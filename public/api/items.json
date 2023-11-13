@@ -1,0 +1,75 @@
+{
+    "items": [
+        {
+            "id": 11,
+            "name": "Cheetos",
+            "price": 15,
+            "quantity": 12,
+            "image": "images/cheetos.png"
+        },
+        
+        {
+            "id": 12,
+            "name": "Nutella",
+            "price": 10,
+            "quantity": 10,
+            "image": "images/nutella.png"
+        },
+
+        {
+            "id": 13,
+            "name": "Hersheys",
+            "price": 3,
+            "quantity": 15,
+            "image": "images/hersheys.png"
+        },
+
+        {
+            "id": 14,
+            "name": "Coca Cola",
+            "price": 2,
+            "quantity": 15,
+            "image": "images/coca-cola.png"
+        },
+        
+        {
+            "id": 15,
+            "name": "Orbit",
+            "price": 1,
+            "quantity": 13,
+            "image": "images/orbit.png"
+        },
+
+        {
+            "id": 16,
+            "name": "Doritos",
+            "price": 5,
+            "quantity": 9,
+            "image": "images/doritos.png"
+        },
+
+        {
+            "id": 17,
+            "name": "Dr Pepper",
+            "price": 4,
+            "quantity": 14,
+            "image": "images/dr-pepper.png"
+        },
+
+        {
+            "id": 18,
+            "name": "Haribo",
+            "price": 3,
+            "quantity": 11,
+            "image": "images/haribo.png"
+        },
+        
+        {
+            "id": 19,
+            "name": "Pringles",
+            "price": 6,
+            "quantity": 6,
+            "image": "images/pringles.png"
+        }
+    ]
+}
