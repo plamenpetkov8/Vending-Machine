@@ -39,7 +39,6 @@ ElementsListItem.propTypes = {
 		image: PropTypes.string.isRequired
 	}).isRequired,
 	balance: PropTypes.shape({
-		loading: PropTypes.bool.isRequired,
 		value: PropTypes.number.isRequired
 	}),
 	onClick: PropTypes.func.isRequired,
