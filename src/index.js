@@ -14,3 +14,5 @@ root.render(
     <Provider store={store}>
         <App />
     </Provider>);
+
+store.dispatch(fetchItems());
