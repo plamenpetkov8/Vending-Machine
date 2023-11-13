@@ -8,20 +8,16 @@ const BalancePanel = (
         <section className="card .bg-primary item-gapped">
 			<div className="card-header container-fluid">
 				<div className="row">
-                    <div style={{margin:"auto"}} className="col-9">
-                        <h3 style={{fontSize:"16px", margin:"auto"}}>Current balance</h3>
+                    <div style={{margin:"auto"}} className="col-10 col-sm-12 col-md-12 col-lg-7 col-xl-8 col-xxl-9">
+                        <h4 style={{fontSize:"16px", margin:"auto"}}>Current balance</h4>
                     </div>
-                    <div className="col-3 float-right">
+                    <div className="col-2 col-sm-12 col-md-12 col-lg-5 col-xl-4 col-xxl-3 float-right">
                         <button style={{border:"0px"}} className="btn btn-danger" onClick={() => onClick()}>Eject</button>
                     </div>
                 </div>
 			</div>
 			<div className="card-body text-center">
-				{
-					balance.loading ?
-					'Loading balance...' :
-					`${roundTo2Dec(balance.value)} lv`
-				}
+				{ `${roundTo2Dec(balance.value)} lv` }
 			</div>
 		</section>
 	)
@@ -29,7 +25,6 @@ const BalancePanel = (
 
 BalancePanel.propTypes = {
 	balance: PropTypes.shape({
-		loading: PropTypes.bool.isRequired,
 		value: PropTypes.number.isRequired
 	}),
     onClick: PropTypes.func.isRequired
